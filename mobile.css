@@ -54,4 +54,7 @@
     .banner_warp-text {
         font-size: 20px;
     }
+    .address, .info {
+        margin-bottom: 50px;
+    }
 }

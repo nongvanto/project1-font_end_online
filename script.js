@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded',()=> {
     var modalBtn = document.querySelectorAll('.modal-btn')
     var modalClose = document.querySelectorAll('.modal-close');
     benner = parseInt(banner);
-
     var scrollStatus = "duoi" ;
     window.addEventListener('scroll', ()=> {
         if (window.pageYOffset >= banner) {
