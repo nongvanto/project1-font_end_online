@@ -18,7 +18,7 @@
             <div class="container">
                 <div class="header_menu">
                     <div class="header_menu-logo">START BOOSTRAP</div>
-                    <div class="header_menu-bars">MENU <i class="fas fa-bars"></i></div>
+                    <div class="header_menu-bars background-btn">MENU <i class="fas fa-bars"></i></div>
                     <ul class="header_menu-list">
                         <li class="list_item">PORTFOLIO</li>
                         <li class="list_item">ABOUT</li>
@@ -53,7 +53,7 @@
         </div>
     <!-- end banner -->
     <!-- PORTFOLIO -->
-    <div class="portfolio">
+    <div class="portfolio scroll">
         <div class="container">
             <div class="portfolio_header">
                 <h2>PORTFOLIO</h2>
@@ -73,7 +73,7 @@
                             <img  data-src="img/cabin.png" src="img/cabin.png" id="myImg" alt="">
                         </div>
                         <div class="portfolio_content-icon">
-                            <i class="fas fa-plus  fa-10x"></i>
+                            <i class="fas fa-plus  fa-5x"></i>
                         </div>
                     </div>
  
@@ -85,7 +85,7 @@
                             <img src="img/cake.png" alt="">
                         </div>
                         <div class="portfolio_content-icon">
-                            <i class="fas fa-plus  fa-10x"></i>
+                            <i class="fas fa-plus  fa-5x"></i>
                         </div>
                     </div>
                     
@@ -97,7 +97,7 @@
                             <img src="img/circus.png" alt="">
                         </div>
                         <div class="portfolio_content-icon">
-                            <i class="fas fa-plus  fa-10x"></i>
+                            <i class="fas fa-plus  fa-5x"></i>
                         </div>
                     </div>
                     
@@ -109,7 +109,7 @@
                             <img src="img/game.png" alt="">
                         </div>
                         <div class="portfolio_content-icon">
-                            <i class="fas fa-plus  fa-10x"></i>
+                            <i class="fas fa-plus  fa-5x"></i>
                         </div>
                     </div>
                     
@@ -121,7 +121,7 @@
                             <img src="img/safe.png"  alt="">
                         </div>
                         <div class="portfolio_content-icon">
-                            <i class="fas fa-plus  fa-10x"></i>
+                            <i class="fas fa-plus  fa-5x"></i>
                         </div>
                     </div>
                     
@@ -133,7 +133,7 @@
                             <img src="img/submarine.png" alt="">
                         </div>
                         <div class="portfolio_content-icon">
-                            <i class="fas fa-plus  fa-10x"></i>
+                            <i class="fas fa-plus  fa-5x"></i>
                         </div>
                     </div> 
                 </div>
@@ -317,7 +317,7 @@
             </div>
         </div>
     </div>
-    <div class="about-content">
+    <div class="about-content scroll">
         <div class="container">
             <div class="about_header">
                 <h2>PORTFOLIO</h2>
@@ -350,7 +350,7 @@
             </div>
         </div>
     </div>
-    <div class="contact-content">
+    <div class="contact-content scroll">
         <div class="container">
             <div class="contact_header">
                 <h2>CONTACT ME</h2>
@@ -365,14 +365,26 @@
             <div class="row">
                 <div class="col-lg-8 margin-auto">
                     <form>
-                        <label class="contact_form-label">FIRST NAME</label><br>
-                        <input type="text" class="contact_form" name="name" placeholder="Name"><br>
-                        <label class="contact_form-label">EMAIL ADDRESS</label><br>
-                        <input type="text" class="contact_form" name="email"placeholder="Email Address"><br>
-                        <label class="contact_form-label">PHONE NUMBER</label><br>
-                        <input type="text" class="contact_form" name="phone" placeholder="Phone Number"><br>
-                        <label class="contact_form-label">MESSENGER:</label><br>
-                        <textarea class="contact_form" placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+                        <div class="control-form-contact">
+                            <label class="contact_form-label">FIRST NAME</label><br>
+                            <input type="text" class="contact_form" name="name" placeholder="Name"><br>
+                            <p class="text-erro">☻ Please enter your name.</p>
+                        </div>
+                        <div class="control-form-contact">
+                            <label class="contact_form-label">EMAIL ADDRESS</label><br>
+                            <input type="text" class="contact_form" name="email"placeholder="Email Address"><br>
+                            <p class="text-erro">☻ Please enter your email address.</p>
+                        </div>
+                        <div class="control-form-contact">
+                            <label class="contact_form-label">PHONE NUMBER</label><br>
+                            <input type="text" class="contact_form" name="phone" placeholder="Phone Number"><br>
+                            <p class="text-erro">☻ Please enter your phone number.</p>
+                        </div>
+                        <div class="control-form-contact " style="margin-bottom:40px;">
+                            <label class="contact_form-label">MESSENGER:</label><br>
+                            <textarea class="contact_form" placeholder="Message" name="" id="" cols="5" rows="6"></textarea>
+                            <p class="text-erro">☻ Please enter a message.</p>
+                        </div>
                         <button class="contact_form-btn">Send</button>
                     </form> 
                 </div>

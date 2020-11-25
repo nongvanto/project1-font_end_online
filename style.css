@@ -44,6 +44,7 @@
 }
 .header_menu-list .list_item {
     float: left;
+    padding: 10px;
     margin-right: 35px;
     cursor: pointer;
 }
@@ -380,6 +381,10 @@
     margin: auto !important;
     text-align: left;
 }
+.control-form-contact {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #E9ECEF;
+}
 .contact_form-label, .contact_form {
     width: 100%;
 }
@@ -388,15 +393,12 @@ input.contact_form {
     font-size:25px;
     border: none;
     padding-bottom: 10px;
-    border-bottom: 1px solid #E9ECEF;
 }
-input.contact_form:focus {
+input.contact_form:focus  {
     outline: none;
     color: #495057;
 }
-input.contact_form:valid + .contact_form-label {
-    opacity: 1;
-}
+
 .contact_form-btn {
     font-size: 25px;
     padding: 20px;
@@ -415,11 +417,16 @@ input.contact_form:valid + .contact_form-label {
 textarea.contact_form {
     font-size:25px;
     border: none;
-    border-bottom: 1px solid #E9ECEF;
 }
 textarea.contact_form:focus {
     outline: none;
     overflow: auto;
+}
+.text-erro  {
+    opacity: 0;
+    visibility: hidden;
+    padding-left: 30px;
+    color: red;
 }
 /* ///// footer /// */
 .footer {
@@ -484,6 +491,19 @@ a.footer-icon {
     color: white;
 }
 /* /////afsdasdsadasdfaws//// */
+.scroll {
+    transition: 0.5s;
+}
 .contact_form-label {
     opacity: 0;
+}
+.background-btn {
+    background-color: #1ABC9C;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.list_item.background-btn {
+    background-color: #1ABC9C;
+    border-radius: 10px;
+    color: white;
 }
